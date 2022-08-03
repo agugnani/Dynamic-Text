@@ -75,18 +75,25 @@ main {
   padding: 10px 15px;
 }
 
+.favorites p::before, .favorites p::after {
+  content: '';
+  flex: 1;
+  background-color: #000;
+  height: 1px;
+  min-width: 6px;
+}
+
 .date-time {
   font-size: 13px;
   text-align: right;
 }
 
-.divider {
+/* .divider {
   flex: 1;
   background-color: #000;
   height: 1px;
-  min-width: 10px;
-}
-
+  min-width: 6px;
+} */
 .favorites p span:before {
   content: '\2764';
   color: #d92d24;
