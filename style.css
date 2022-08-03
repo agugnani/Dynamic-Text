@@ -1,7 +1,6 @@
 /* Font Import Script */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-/* Default CSS */
 * {
   margin: 0;
   box-sizing: border-box;
@@ -11,8 +10,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  font-size: 14px;
   font-style: normal;
-  overflow-x: hidden;
   max-width: 100%;
 }
 
@@ -27,9 +26,68 @@ p {
   letter-spacing: 0.4px;
 }
 
-/* Reusable Classes */
 main {
   background-color: #f6f9fc;
   max-width: 480px;
   padding: 15px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-end {
+  justify-content: end
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.chat-box {
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.sender-text {
+  max-width: 50%;
+  margin: 0 0 0 auto;
+}
+
+.sender-text p {
+  background-color: #0079d2;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.date-time {
+  font-size: 13px;
+  text-align: right;
+}
+
+.divider {
+  flex: 1;
+  background-color: #000;
+  height: 1px;
+  min-width: 10px;
+}
+
+.favorites p span:before {
+  content: '\2764';
+  color: #d92d24;
 }
