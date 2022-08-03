@@ -1,0 +1,35 @@
+/* Font Import Script */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Default CSS */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  color: #222;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+/* Reusable Classes */
+main {
+  background-color: #f6f9fc;
+  max-width: 480px;
+  padding: 15px;
+}
